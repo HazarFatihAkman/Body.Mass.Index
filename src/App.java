@@ -21,7 +21,7 @@ public class App {
                 weight = sc.nextDouble();
             }
 
-            System.out.println("| Your Body Mass Index : " + (weight / height * height));
+            System.out.println("| Your Body Mass Index : " + (weight / (height * height)));
 
             System.out.print("| Exit (Y/N) : ");
             exit = Objects.equals(sc.next(), "Y");
